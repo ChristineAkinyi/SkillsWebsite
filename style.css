@@ -1,0 +1,162 @@
+body{
+    background-color: #EDF0F7;
+    margin: 0;
+}
+
+
+#cap{
+    width: 25px;
+    margin-top: 3px;
+}
+
+#hero{
+    color: #FF395A;
+}
+
+.container{
+    background-color: #F3F7FE;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.navbartwo{
+    margin-left: 40px;
+    display: flex;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+#login{
+    color: #FF395A;
+    border-color: #FF395A;
+    border-radius: 30px;
+    padding: 4px 30px 4px 30px;
+    height: 40px;
+}
+
+#joinnow{
+    color: white;
+    background-color: #FF395A;
+    border-radius: 30px;
+    height: 40px;
+    padding: 4px 30px 4px 30px;
+}
+
+#superhero{
+    color: #FF395A;
+}
+
+.text{
+    white-space: normal;
+}
+
+#explore{
+    color: white;
+    background-color: #FF395A;
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+}
+
+.tick{
+    width: 15px;
+    color: grey;
+}
+
+.subscription{
+    display: flex;
+    gap: 35px;
+    color: grey;
+}
+
+#ninja{
+    width: 500px;
+}
+
+.page{
+    display: flex;
+}
+
+.text{
+    font-size: 16px;
+}
+
+#udemy{
+    width: 80px;
+}
+
+#slack{
+    width: 22px;
+    margin-top: 6px;
+}
+
+#microsoft{
+    width: 25px;
+}
+
+#mic{
+    margin-bottom: 5px;
+}
+
+.logos{
+    display: flex;
+    gap: 40px;
+    margin-left: 40px;
+}
+
+.program{
+    color: grey;
+    margin-top: 10pxx;
+}
+
+#google{
+    margin-top: 10px;
+}
+
+#medium{
+    margin-top: 10px;
+}
+
+#udemy{
+    margin-top: 20px; 
+}
+
+.input{
+    border-radius: 30px;
+    padding: 8px 30px 8px 30px;
+}
+
+.strength{
+    color: grey;
+}
+
+.inputone{
+    display: flex;
+}
+
+@media screen and (min-width:375px) and (max-width:667px){
+    .page{
+        flex-direction: column;
+    }
+
+    .navbartwo{
+        margin-left: 40px;
+        flex-direction: column;
+    }
+
+
+    #ninja{
+        width: 360px;
+    }
+
+    .logos{
+        display: flex;
+        gap: 20px;
+        margin-left: 40px;
+    }
+}
+
+

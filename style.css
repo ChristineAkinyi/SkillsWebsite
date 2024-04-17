@@ -1,6 +1,6 @@
 body{
     background-color: #EDF0F7;
-    margin: 0;
+    margin-left: 40px;
 }
 
 
@@ -11,23 +11,30 @@ body{
 
 #hero{
     color: #FF395A;
-}
+} 
 
-.container{
-    background-color: #F3F7FE;
-}
 
 .navbar{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 350px;
+    background-color: #F6FAFF;
 }
 
-.navbartwo{
-    margin-left: 40px;
+#skillherotag{
+    margin-left: 50px;
+}
+
+.nav{
+    margin-left: 160px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
     margin-top: 30px;
+    
+}
+
+a{
+    text-decoration: none;
 }
 
 #login{
@@ -44,6 +51,7 @@ body{
     border-radius: 30px;
     height: 40px;
     padding: 4px 30px 4px 30px;
+    /* margin-bottom: 15px; */
 }
 
 #superhero{
@@ -54,11 +62,16 @@ body{
     white-space: normal;
 }
 
+#home{
+    color: #FF395A;
+}
+
 #explore{
     color: white;
     background-color: #FF395A;
     border-radius: 30px;
     padding: 8px 30px 8px 30px;
+    margin-left: -10%;
 }
 
 .tick{
@@ -72,16 +85,20 @@ body{
     color: grey;
 }
 
-#ninja{
+#image{
     width: 500px;
 }
 
-.page{
+.homepage{
     display: flex;
+    gap: 400px;
+    background-color: #F6FAFF;
+    
 }
 
-.text{
+.homepagetext{
     font-size: 16px;
+    margin-left: 50px;
 }
 
 #udemy{
@@ -103,8 +120,8 @@ body{
 
 .logos{
     display: flex;
-    gap: 40px;
-    margin-left: 40px;
+    gap: 200px;
+    margin-left: 160px;
 }
 
 .program{
@@ -126,7 +143,8 @@ body{
 
 .input{
     border-radius: 30px;
-    padding: 8px 30px 8px 30px;
+    padding: 8px 40px 8px 40px;
+    padding-left: 20px;
 }
 
 .strength{
@@ -137,26 +155,176 @@ body{
     display: flex;
 }
 
-@media screen and (min-width:375px) and (max-width:667px){
-    .page{
-        flex-direction: column;
+@media screen and (min-width:280px) and (max-width:653px){
+    body{
+        font-size: larger;
     }
 
-    .navbartwo{
-        margin-left: 40px;
+    .homepage{
         flex-direction: column;
-    }
+         gap: 60px;
+     }
 
-
-    #ninja{
-        width: 200px;
+     .text{
+        font-size: 15px;
+        white-space: nowrap;
     }
 
     .logos{
-        flex-direction: column;
         gap: 20px;
         margin-left: 40px;
     }
+
+    .nav{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    } 
+
+    #image{
+        margin-right: 20px;
+    }
 }
+
+
+@media only screen and (max-width: 359px) {
+    #explore{
+        border-radius: 30px;
+        margin-left: -20%;
+    }
+
+
+.input{
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.logos{
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+#image{
+    width: 350px;
+}
+
+}
+
+@media screen and (min-width:360px) and (max-width:768px){
+    #explore{
+        border-radius: 30px;
+        padding: 8px 30px 8px 30px;  
+        margin-left: -20%;
+    }
+
+
+.input{
+    border-radius: 30px;
+    padding: 8px 40px 8px 40px; 
+    padding-left: 20px;
+}
+
+.logos{
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+}
+
+.homepage{
+ flex-direction: column;
+    gap: 20px;
+}
+
+.nav{
+    flex-direction: column; 
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.navbar{
+    list-style: none;
+    gap: 20px;
+}            
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px){
+    #explore{
+        border-radius: 30px;
+        padding: 8px 30px 8px 30px;  
+        margin-left: -20%;
+    }
+
+
+.input{
+    border-radius: 30px;
+    padding: 8px 40px 8px 40px; 
+    padding-left: 20px;
+}
+
+.logos{
+    display: flex;
+    gap: 100px;
+    margin-left: 40px;
+}
+
+.homepage{
+    display: flex;
+    gap: 20px;
+}
+
+.nav{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.navbar{
+    list-style: none;
+    gap: 30px;
+}            
+
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1368px){
+    #explore{
+        border-radius: 30px;
+        padding: 8px 30px 8px 30px;  
+        margin-left: -20%;
+    }
+
+
+.input{
+    border-radius: 30px;
+    padding: 8px 40px 8px 40px; 
+}
+
+.logos{
+    display: flex;
+    gap: 100px;
+    margin-left: 40px;
+}
+
+.homepage{
+   display: flex;
+    gap: 400px;
+}
+
+.nav{
+    /* flex-direction: column;  */
+    gap: 100px;
+    margin-top: 30px;
+}
+
+.navbar{
+    list-style: none;
+    gap: 30px;
+}            
+
+}
+
+
+
+
 
 

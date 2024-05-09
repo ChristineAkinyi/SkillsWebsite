@@ -4,35 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- <title>Hamburger Menu Example</title>  -->
     <link rel="stylesheet" href="style.css">
 </head>           
 <body>
 
-<div class="hamburger-menu">
-  <div class="menu-toggle" onclick="toggleMenu()">  
-    <div class="bar"></div>
-    <div class="bar"></div>
-    <div class="bar"></div>
-  </div>
-  </div>
-
-  <nav class="navbar">   
+<div class="navbar">
     <div id="skillherotag">
-        <p><img src="Images/graduationcap.webp" alt="" id="cap">SKILL<span id="hero">HERO</span></p>
+        <p><img src="Images/graduationcap.webp" alt="" id="skillherologo">SKILL<span id="hero">HERO</span></p>
     </div>
 
-    
-    <ul class="nav"> 
+    <input type ="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="hamburger-menu"> 
+    <div></div>
+    <div></div>
+    <div></div>
+  </label>
+  
+    <ul class="navigationbar"> 
+        <div class="nav">
     <li><a href="#" id="home">Home</a></li>
     <li><a href="#" class="program">Programs</a></li>
     <li><a href="#" class="program">About Us</a></li>
     <li><a href="#" class="program">Contact</a></li>
-    <button id="login">Login</button>
-    <button id="joinnow">Join Now</button> 
+</div>
+    <button id="loginbutton">Login</button>
+    <button id="joinnowbutton">Join Now</button>
     </ul>
-</nav>
-<script src="script.js"></script>
+</div>
 
     <div class="homepage">
         <div class="homepagetext">
@@ -40,47 +38,47 @@
         <h1>Upgrade Your</h1>
         <h1>Skills Up To</h1>
         <h1><span id="superhero">Superhero</span> Level</h1>
-        <p class="strength">Don't let your strength be defeated.</p>
-         <p class="strength">Explore the hidden skills within you !</p>
+        <p class="pagetext">Don't let your strength be defeated.</p>
+         <p class="pagetext">Explore the hidden skills within you !</p>
         
      <span><input type="text" placeholder="What skills are you looking for?" name="What skills are you looking for?" class="input"></span>
-     <span><button id="explore">Explore Now</button></span>
+     <span><button id="explorenowbutton">Explore Now</button></span>
 
        <div class="subscription">  
         <div>
-            <p><img src="Images/blacktick.webp" alt="" class="tick"> Monthly Subscription</p>
+            <p><img src="Images/blacktick.webp" alt="" class="blackcheck"> Monthly Subscription</p>
         </div>
 
         <div>
-         <p><img src="Images/blacktick.webp" alt="" class="tick"> 30 day money back guarantee</p>
+         <p><img src="Images/blacktick.webp" alt="" class="blackcheck"> 30 day money back guarantee</p>
         </div>
        </div>
        </div>
 
-        <div id="hero">
+        <div>
            <img src="Images/skillninja.png" alt="" id="image">
         </div>
     </div>
 
-<div class="logos">
-    <div class="strength">
-        <p id="mic"><img src="Images/microsoft.webp" alt="" id="microsoft">Microsoft</p>
+<div class="footer">
+    <div>
+        <p><img src="Images/microsoft.webp" alt="" id="microsoft">Microsoft</p>
     </div>
 
     <div id="google">
-        <p class="strength">Google</p>
+        <p class="brandlogos">Google</p>
     </div>
 
     <div id="medium">
-        <p class="strength">Medium</p>
+        <p class="brandlogos">Medium</p>
     </div>
 
-    <div class="strength">
+    <div>
         <img src="Images/udemy.png" alt="" id="udemy">
     </div>
 
-    <div class="strength">
-       <p id="slak"><img src="Images/slack.webp" alt="" id="slack">Slack</p>
+    <div>
+       <p><img src="Images/slack.webp" alt="" id="slack">Slack</p>
     </div>
 
 </div>
